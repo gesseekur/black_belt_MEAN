@@ -1,4 +1,4 @@
-<div ng-controller="loginController as users">
+<div class="container" ng-controller="loginController as users">
 	<form ng-submit="users.requestName(users.input)">
 		<div ng-if="users.error">
 			<span ng-bind="users.error.errors.name.message"></span>

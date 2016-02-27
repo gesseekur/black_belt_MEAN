@@ -3,7 +3,7 @@
 	<h2><span ng-bind="survey.question"></span></h2>
 	<p>Click the Vote button to choose one</p>
 
-	<table>
+	<table class="bordered container">
 		<thead>
 			<tr>
 				<th>Option</th>
@@ -17,7 +17,7 @@
 				<td ng-bind="survey.option1Vote"></td>
 				<td>
 					<form ng-submit="updateOption1Vote(survey._id)">
-						<button>Vote</button>
+						<button class="waves-effect waves-light green btn">Vote</button>
 					</form>
 				</td>
 			</tr>
@@ -26,7 +26,7 @@
 				<td ng-bind="survey.option2Vote"></td>
 				<td>
 					<form ng-submit="updateOption2Vote(survey._id)">
-						<button>Vote</button>
+						<button class="waves-effect waves-light green btn">Vote</button>
 					</form>
 				</td>
 			</tr>
@@ -35,7 +35,7 @@
 				<td ng-bind="survey.option3Vote"></td>
 				<td>
 					<form ng-submit="updateOption3Vote(survey._id)">
-						<button>Vote</button>
+						<button class="waves-effect waves-light green btn">Vote</button>
 					</form>
 				</td>
 
@@ -45,7 +45,7 @@
 				<td ng-bind="survey.option4Vote"></td>
 				<td>
 					<form ng-submit="updateOption4Vote(survey._id)">
-						<button>Vote</button>
+						<button class="waves-effect waves-light green btn">Vote</button>
 					</form>
 				</td>
 			</tr>
