@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var fs = require('fs');
 
-mongoose.connect('mongodb://localhost/projectMEANSchema');
+mongoose.connect('mongodb://localhost/survey');
 var models_path = __dirname + '/../models';
 
 fs.readdirSync(models_path).forEach(function(file){
